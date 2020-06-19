@@ -1,0 +1,4 @@
+create_clock -period 20 [get_ports clk]
+set_clock_uncertainty -setup 1.5 [get_clocks clk]
+set_input_delay -max 5 -clock clk [all_inputs]
+set_output_delay -max 5 -clock clk [all_outputs]
