@@ -1,0 +1,14 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'pipelined_mips' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : pipelined_mips
+Version: M-2016.12-SP5-2
+Date   : Mon Apr  8 19:33:08 2019
+****************************************
+
+This design has no violated constraints.
+
+1

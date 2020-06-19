@@ -1,0 +1,198 @@
+ 
+****************************************
+check_design summary:
+Version:     M-2016.12-SP5-2
+Date:        Mon Apr  8 19:32:53 2019
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                    103
+    Unconnected ports (LINT-28)                                    66
+    Shorted outputs (LINT-31)                                      34
+    Constant outputs (LINT-52)                                      3
+
+Cells                                                              22
+    Cells do not drive (LINT-1)                                     6
+    Nets connected to multiple pins on same cell (LINT-33)         16
+
+Nets                                                               34
+    Unloaded nets (LINT-2)                                         34
+--------------------------------------------------------------------------------
+
+Warning: In design 'alu', cell 'B_7' does not drive any nets. (LINT-1)
+Warning: In design 'alu', cell 'B_8' does not drive any nets. (LINT-1)
+Warning: In design 'alu', cell 'B_9' does not drive any nets. (LINT-1)
+Warning: In design 'alu', cell 'B_10' does not drive any nets. (LINT-1)
+Warning: In design 'alu', cell 'B_11' does not drive any nets. (LINT-1)
+Warning: In design 'alu', cell 'B_12' does not drive any nets. (LINT-1)
+Warning: In design 'pipelined_mips', net 'MEM_inst[0]' driven by pin 'exe_mem1/MEM_inst[0]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[1]' driven by pin 'exe_mem1/MEM_inst[1]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[2]' driven by pin 'exe_mem1/MEM_inst[2]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[3]' driven by pin 'exe_mem1/MEM_inst[3]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[4]' driven by pin 'exe_mem1/MEM_inst[4]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[5]' driven by pin 'exe_mem1/MEM_inst[5]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[6]' driven by pin 'exe_mem1/MEM_inst[6]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[7]' driven by pin 'exe_mem1/MEM_inst[7]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[8]' driven by pin 'exe_mem1/MEM_inst[8]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[9]' driven by pin 'exe_mem1/MEM_inst[9]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[10]' driven by pin 'exe_mem1/MEM_inst[10]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[11]' driven by pin 'exe_mem1/MEM_inst[11]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[12]' driven by pin 'exe_mem1/MEM_inst[12]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[13]' driven by pin 'exe_mem1/MEM_inst[13]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[14]' driven by pin 'exe_mem1/MEM_inst[14]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[15]' driven by pin 'exe_mem1/MEM_inst[15]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[16]' driven by pin 'exe_mem1/MEM_inst[16]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[17]' driven by pin 'exe_mem1/MEM_inst[17]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[18]' driven by pin 'exe_mem1/MEM_inst[18]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[19]' driven by pin 'exe_mem1/MEM_inst[19]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[20]' driven by pin 'exe_mem1/MEM_inst[20]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[21]' driven by pin 'exe_mem1/MEM_inst[21]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[22]' driven by pin 'exe_mem1/MEM_inst[22]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[23]' driven by pin 'exe_mem1/MEM_inst[23]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[24]' driven by pin 'exe_mem1/MEM_inst[24]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[25]' driven by pin 'exe_mem1/MEM_inst[25]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[26]' driven by pin 'exe_mem1/MEM_inst[26]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[27]' driven by pin 'exe_mem1/MEM_inst[27]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[28]' driven by pin 'exe_mem1/MEM_inst[28]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[29]' driven by pin 'exe_mem1/MEM_inst[29]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[30]' driven by pin 'exe_mem1/MEM_inst[30]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'MEM_inst[31]' driven by pin 'exe_mem1/MEM_inst[31]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'EXE_imm32bit[30]' driven by pin 'id_exe1/EXE_imm32bit[30]' has no loads. (LINT-2)
+Warning: In design 'pipelined_mips', net 'EXE_imm32bit[31]' driven by pin 'id_exe1/EXE_imm32bit[31]' has no loads. (LINT-2)
+Warning: In design 'sel_pc_blk', port 'ID_inst[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'ID_inst[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'ID_inst[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'ID_inst[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'ID_inst[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'ID_inst[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'ID_inst[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'ID_inst[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'ID_inst[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'ID_inst[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'ID_inst[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'ID_inst[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'ID_inst[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'ID_inst[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'ID_inst[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'ID_inst[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'ID_inst[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'ID_inst[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'ID_inst[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'ID_inst[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'EXE_inst[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'EXE_inst[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'EXE_inst[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'EXE_inst[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'EXE_inst[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'EXE_inst[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'EXE_inst[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'EXE_inst[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'EXE_inst[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'EXE_inst[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'EXE_inst[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'EXE_inst[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'EXE_inst[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'EXE_inst[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'EXE_inst[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'EXE_inst[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'EXE_inst[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'EXE_inst[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'EXE_inst[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'EXE_inst[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'EXE_inst[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'EXE_inst[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'EXE_inst[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'EXE_inst[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'EXE_inst[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'sel_pc_blk', port 'EXE_inst[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'control', port 'ID_inst[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'control', port 'ID_inst[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'control', port 'ID_inst[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'control', port 'ID_inst[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'control', port 'ID_inst[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'control', port 'ID_inst[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'control', port 'ID_inst[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'control', port 'ID_inst[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'control', port 'ID_inst[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'control', port 'ID_inst[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'control', port 'ID_inst[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'control', port 'ID_inst[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'control', port 'ID_inst[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'control', port 'ID_inst[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'control', port 'ID_inst[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'control', port 'ID_inst[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'control', port 'ID_inst[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'control', port 'ID_inst[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'control', port 'ID_inst[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'control', port 'ID_inst[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'pipelined_mips', output port 'inst_addr[31]' is connected directly to output port 'pc_IF[31]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[30]' is connected directly to output port 'pc_IF[30]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[29]' is connected directly to output port 'pc_IF[29]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[28]' is connected directly to output port 'pc_IF[28]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[27]' is connected directly to output port 'pc_IF[27]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[26]' is connected directly to output port 'pc_IF[26]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[25]' is connected directly to output port 'pc_IF[25]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[24]' is connected directly to output port 'pc_IF[24]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[23]' is connected directly to output port 'pc_IF[23]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[22]' is connected directly to output port 'pc_IF[22]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[21]' is connected directly to output port 'pc_IF[21]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[20]' is connected directly to output port 'pc_IF[20]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[19]' is connected directly to output port 'pc_IF[19]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[18]' is connected directly to output port 'pc_IF[18]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[17]' is connected directly to output port 'pc_IF[17]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[16]' is connected directly to output port 'pc_IF[16]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[15]' is connected directly to output port 'pc_IF[15]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[14]' is connected directly to output port 'pc_IF[14]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[13]' is connected directly to output port 'pc_IF[13]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[12]' is connected directly to output port 'pc_IF[12]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[11]' is connected directly to output port 'pc_IF[11]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[10]' is connected directly to output port 'pc_IF[10]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[9]' is connected directly to output port 'pc_IF[9]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[8]' is connected directly to output port 'pc_IF[8]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[7]' is connected directly to output port 'pc_IF[7]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[6]' is connected directly to output port 'pc_IF[6]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[5]' is connected directly to output port 'pc_IF[5]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[4]' is connected directly to output port 'pc_IF[4]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[3]' is connected directly to output port 'pc_IF[3]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[2]' is connected directly to output port 'pc_IF[2]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[1]' is connected directly to output port 'pc_IF[1]'. (LINT-31)
+Warning: In design 'pipelined_mips', output port 'inst_addr[0]' is connected directly to output port 'pc_IF[0]'. (LINT-31)
+Warning: In design 'control', output port 'alu_op[4]' is connected directly to output port 'alu_op[0]'. (LINT-31)
+Warning: In design 'control', output port 'alu_op[4]' is connected directly to output port 'alu_op[2]'. (LINT-31)
+Warning: In design 'pipelined_mips', the same net is connected to more than one pin on submodule 'id_exe1'. (LINT-33)
+   Net 'ID_inst[15]' is connected to pins 'ID_imm32bit[31]', 'ID_imm32bit[30]'', 'ID_imm32bit[29]', 'ID_imm32bit[28]', 'ID_imm32bit[27]', 'ID_imm32bit[26]', 'ID_imm32bit[25]', 'ID_imm32bit[24]', 'ID_imm32bit[23]', 'ID_imm32bit[22]', 'ID_imm32bit[21]', 'ID_imm32bit[20]', 'ID_imm32bit[19]', 'ID_imm32bit[18]', 'ID_imm32bit[17]', 'ID_imm32bit[16]', 'ID_imm32bit[15]', 'ID_inst[15]'.
+Warning: In design 'pipelined_mips', the same net is connected to more than one pin on submodule 'id_exe1'. (LINT-33)
+   Net 'ID_inst[14]' is connected to pins 'ID_imm32bit[14]', 'ID_inst[14]''.
+Warning: In design 'pipelined_mips', the same net is connected to more than one pin on submodule 'id_exe1'. (LINT-33)
+   Net 'ID_inst[13]' is connected to pins 'ID_imm32bit[13]', 'ID_inst[13]''.
+Warning: In design 'pipelined_mips', the same net is connected to more than one pin on submodule 'id_exe1'. (LINT-33)
+   Net 'ID_inst[12]' is connected to pins 'ID_imm32bit[12]', 'ID_inst[12]''.
+Warning: In design 'pipelined_mips', the same net is connected to more than one pin on submodule 'id_exe1'. (LINT-33)
+   Net 'ID_inst[11]' is connected to pins 'ID_imm32bit[11]', 'ID_inst[11]''.
+Warning: In design 'pipelined_mips', the same net is connected to more than one pin on submodule 'id_exe1'. (LINT-33)
+   Net 'ID_inst[10]' is connected to pins 'ID_imm32bit[10]', 'ID_inst[10]''.
+Warning: In design 'pipelined_mips', the same net is connected to more than one pin on submodule 'id_exe1'. (LINT-33)
+   Net 'ID_inst[9]' is connected to pins 'ID_imm32bit[9]', 'ID_inst[9]''.
+Warning: In design 'pipelined_mips', the same net is connected to more than one pin on submodule 'id_exe1'. (LINT-33)
+   Net 'ID_inst[8]' is connected to pins 'ID_imm32bit[8]', 'ID_inst[8]''.
+Warning: In design 'pipelined_mips', the same net is connected to more than one pin on submodule 'id_exe1'. (LINT-33)
+   Net 'ID_inst[7]' is connected to pins 'ID_imm32bit[7]', 'ID_inst[7]''.
+Warning: In design 'pipelined_mips', the same net is connected to more than one pin on submodule 'id_exe1'. (LINT-33)
+   Net 'ID_inst[6]' is connected to pins 'ID_imm32bit[6]', 'ID_inst[6]''.
+Warning: In design 'pipelined_mips', the same net is connected to more than one pin on submodule 'id_exe1'. (LINT-33)
+   Net 'ID_inst[5]' is connected to pins 'ID_imm32bit[5]', 'ID_inst[5]''.
+Warning: In design 'pipelined_mips', the same net is connected to more than one pin on submodule 'id_exe1'. (LINT-33)
+   Net 'ID_inst[4]' is connected to pins 'ID_imm32bit[4]', 'ID_inst[4]''.
+Warning: In design 'pipelined_mips', the same net is connected to more than one pin on submodule 'id_exe1'. (LINT-33)
+   Net 'ID_inst[3]' is connected to pins 'ID_imm32bit[3]', 'ID_inst[3]''.
+Warning: In design 'pipelined_mips', the same net is connected to more than one pin on submodule 'id_exe1'. (LINT-33)
+   Net 'ID_inst[2]' is connected to pins 'ID_imm32bit[2]', 'ID_inst[2]''.
+Warning: In design 'pipelined_mips', the same net is connected to more than one pin on submodule 'id_exe1'. (LINT-33)
+   Net 'ID_inst[1]' is connected to pins 'ID_imm32bit[1]', 'ID_inst[1]''.
+Warning: In design 'pipelined_mips', the same net is connected to more than one pin on submodule 'id_exe1'. (LINT-33)
+   Net 'ID_inst[0]' is connected to pins 'ID_imm32bit[0]', 'ID_inst[0]''.
+Warning: In design 'control', output port 'alu_op[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'control', output port 'alu_op[2]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'control', output port 'alu_op[0]' is connected directly to 'logic 0'. (LINT-52)
+1

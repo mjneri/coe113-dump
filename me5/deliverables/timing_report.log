@@ -1,0 +1,103 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : pipelined_mips
+Version: M-2016.12-SP5-2
+Date   : Mon Apr  8 19:33:08 2019
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ
+Wire Load Model Mode: enclosed
+
+  Startpoint: id_exe1/EXE_opB_reg[5]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: inst_addr_reg[19]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pipelined_mips     140000                saed90nm_typ
+  alu_DW01_add_0     8000                  saed90nm_typ
+  alu                8000                  saed90nm_typ
+  sel_pc_blk         8000                  saed90nm_typ
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  id_exe1/EXE_opB_reg[5]/CLK (DFFARX1)                    0.00 #     0.00 r
+  id_exe1/EXE_opB_reg[5]/Q (DFFARX1)                      0.21       0.21 r
+  id_exe1/EXE_opB[5] (id_exe)                             0.00       0.21 r
+  alu1/opB[5] (alu)                                       0.00       0.21 r
+  alu1/r63/B[5] (alu_DW01_add_0)                          0.00       0.21 r
+  alu1/r63/U1_5/CO (FADDX1)                               5.58       5.79 r
+  alu1/r63/U1_6/CO (FADDX1)                               0.27       6.06 r
+  alu1/r63/U1_7/CO (FADDX1)                               0.27       6.33 r
+  alu1/r63/U1_8/CO (FADDX1)                               0.27       6.60 r
+  alu1/r63/U1_9/CO (FADDX1)                               0.27       6.87 r
+  alu1/r63/U1_10/CO (FADDX1)                              0.27       7.14 r
+  alu1/r63/U1_11/CO (FADDX1)                              0.27       7.41 r
+  alu1/r63/U1_12/CO (FADDX1)                              0.27       7.68 r
+  alu1/r63/U1_13/CO (FADDX1)                              0.27       7.95 r
+  alu1/r63/U13/QN (NAND2X0)                               0.08       8.03 f
+  alu1/r63/U15/QN (NAND3X0)                               0.11       8.14 r
+  alu1/r63/U1_15/CO (FADDX1)                              0.28       8.42 r
+  alu1/r63/U1_16/CO (FADDX1)                              0.27       8.69 r
+  alu1/r63/U1_17/CO (FADDX1)                              0.27       8.96 r
+  alu1/r63/U1_18/CO (FADDX1)                              0.27       9.23 r
+  alu1/r63/U1_19/CO (FADDX1)                              0.27       9.49 r
+  alu1/r63/U9/QN (NAND2X0)                                0.08       9.57 f
+  alu1/r63/U11/QN (NAND3X0)                               0.11       9.69 r
+  alu1/r63/U1_21/CO (FADDX1)                              0.28       9.96 r
+  alu1/r63/U1_22/CO (FADDX1)                              0.27      10.23 r
+  alu1/r63/U1_23/CO (FADDX1)                              0.27      10.50 r
+  alu1/r63/U1_24/CO (FADDX1)                              0.27      10.77 r
+  alu1/r63/U1_25/CO (FADDX1)                              0.27      11.04 r
+  alu1/r63/U5/QN (NAND2X0)                                0.08      11.12 f
+  alu1/r63/U7/QN (NAND3X0)                                0.11      11.23 r
+  alu1/r63/U1_27/CO (FADDX1)                              0.28      11.51 r
+  alu1/r63/U1_28/CO (FADDX1)                              0.27      11.78 r
+  alu1/r63/U1_29/CO (FADDX1)                              0.27      12.05 r
+  alu1/r63/U1_30/CO (FADDX1)                              0.26      12.31 r
+  alu1/r63/U1_31/Q (XOR3X1)                               0.14      12.45 f
+  alu1/r63/SUM[31] (alu_DW01_add_0)                       0.00      12.45 f
+  alu1/U44/Q (AO22X1)                                     0.10      12.55 f
+  alu1/U43/Q (AO221X1)                                    0.11      12.67 f
+  alu1/U5/QN (NOR4X1)                                     0.65      13.32 r
+  alu1/U7/Q (AND4X1)                                      0.10      13.42 r
+  alu1/U18/Q (AND2X1)                                     0.10      13.51 r
+  alu1/zf (alu)                                           0.00      13.51 r
+  sel_pc_blk1/zf (sel_pc_blk)                             0.00      13.51 r
+  sel_pc_blk1/U4/Q (XOR2X1)                               0.86      14.37 r
+  sel_pc_blk1/U3/Q (AO22X1)                               0.12      14.49 r
+  sel_pc_blk1/sel_pc[1] (sel_pc_blk)                      0.00      14.49 r
+  U238/ZN (INVX0)                                         0.54      15.03 f
+  U242/QN (NOR2X0)                                        0.53      15.56 r
+  U233/ZN (INVX0)                                         0.43      15.99 f
+  U235/ZN (INVX0)                                         0.60      16.59 r
+  U60/Q (AO22X1)                                          0.86      17.45 r
+  U59/Q (AO221X1)                                         0.60      18.05 r
+  inst_addr_reg[19]/D (DFFARX1)                           0.30      18.35 r
+  data arrival time                                                 18.35
+
+  clock clk (rise edge)                                  20.00      20.00
+  clock network delay (ideal)                             0.00      20.00
+  clock uncertainty                                      -1.50      18.50
+  inst_addr_reg[19]/CLK (DFFARX1)                         0.00      18.50 r
+  library setup time                                     -0.09      18.41
+  data required time                                                18.41
+  --------------------------------------------------------------------------
+  data required time                                                18.41
+  data arrival time                                                -18.35
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.06
+
+
+1

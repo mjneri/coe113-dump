@@ -1,0 +1,423 @@
+Initializing gui preferences from file  /home/michael.neri/.synopsys_dv_prefs.tcl
+read_verilog alu.v
+Loading db file '/home/michael.neri/coe113/lab5/lib/saed90nm_typ.db'
+Loading db file '/eeei/tools/synopsys/M-2016.12-SP5-2/libraries/syn/gtech.db'
+Loading db file '/eeei/tools/synopsys/M-2016.12-SP5-2/libraries/syn/standard.sldb'
+  Loading link library 'saed90nm_typ'
+  Loading link library 'gtech'
+Loading verilog file '/home/michael.neri/coe113/lab5/processor/alu.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /home/michael.neri/coe113/lab5/processor/alu.v
+
+Statistics for case statements in always block at line 24 in file
+        '/home/michael.neri/coe113/lab5/processor/alu.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            25            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/home/michael.neri/coe113/lab5/processor/alu.db:alu'
+Loaded 1 design.
+Current design is 'alu'.
+alu
+read_verilog control.v
+Loading verilog file '/home/michael.neri/coe113/lab5/processor/control.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /home/michael.neri/coe113/lab5/processor/control.v
+
+Statistics for case statements in always block at line 81 in file
+        '/home/michael.neri/coe113/lab5/processor/control.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            85            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 98 in file
+        '/home/michael.neri/coe113/lab5/processor/control.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           100            |    auto/auto     |
+|           102            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Current design is now '/home/michael.neri/coe113/lab5/processor/control.db:control'
+Loaded 1 design.
+Current design is 'control'.
+control
+read_verilog exe_mem.v
+Loading verilog file '/home/michael.neri/coe113/lab5/processor/exe_mem.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /home/michael.neri/coe113/lab5/processor/exe_mem.v
+
+Inferred memory devices in process
+        in routine exe_mem line 30 in file
+                '/home/michael.neri/coe113/lab5/processor/exe_mem.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    MEM_wr_en_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|  MEM_sel_data_reg   | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     MEM_pc4_reg     | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   MEM_ALUres_reg    | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    MEM_dataB_reg    | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   MEM_wraddr_reg    | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     pc_MEM_reg      | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    MEM_inst_reg     | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   MEM_data_wr_reg   | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/home/michael.neri/coe113/lab5/processor/exe_mem.db:exe_mem'
+Loaded 1 design.
+Current design is 'exe_mem'.
+exe_mem
+read_verilog id_exe.v
+Loading verilog file '/home/michael.neri/coe113/lab5/processor/id_exe.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /home/michael.neri/coe113/lab5/processor/id_exe.v
+
+Inferred memory devices in process
+        in routine id_exe line 37 in file
+                '/home/michael.neri/coe113/lab5/processor/id_exe.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     pc_EXE_reg      | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    EXE_inst_reg     | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     EXE_pc4_reg     | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     EXE_opA_reg     | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     EXE_opB_reg     | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    EXE_dataB_reg    | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  EXE_imm32bit_reg   | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   EXE_wraddr_reg    | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine id_exe line 60 in file
+                '/home/michael.neri/coe113/lab5/processor/id_exe.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   EXE_data_wr_reg   | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|    EXE_wr_en_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|  EXE_sel_data_reg   | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   EXE_alu_op_reg    | Flip-flop |   6   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/home/michael.neri/coe113/lab5/processor/id_exe.db:id_exe'
+Loaded 1 design.
+Current design is 'id_exe'.
+id_exe
+read_verilog if_id.v
+Loading verilog file '/home/michael.neri/coe113/lab5/processor/if_id.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /home/michael.neri/coe113/lab5/processor/if_id.v
+
+Inferred memory devices in process
+        in routine if_id line 13 in file
+                '/home/michael.neri/coe113/lab5/processor/if_id.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     ID_pc4_reg      | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      pc_ID_reg      | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine if_id line 24 in file
+                '/home/michael.neri/coe113/lab5/processor/if_id.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     ID_inst_reg     | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/home/michael.neri/coe113/lab5/processor/if_id.db:if_id'
+Loaded 1 design.
+Current design is 'if_id'.
+if_id
+read_verilog mem_wb.v
+Loading verilog file '/home/michael.neri/coe113/lab5/processor/mem_wb.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /home/michael.neri/coe113/lab5/processor/mem_wb.v
+
+Inferred memory devices in process
+        in routine mem_wb line 26 in file
+                '/home/michael.neri/coe113/lab5/processor/mem_wb.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    WB_wr_en_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|   WB_sel_data_reg   | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     WB_pc4_reg      | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    WB_ALUres_reg    | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    WB_wraddr_reg    | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      pc_WB_reg      | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine mem_wb line 47 in file
+                '/home/michael.neri/coe113/lab5/processor/mem_wb.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   WB_dataout_reg    | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/home/michael.neri/coe113/lab5/processor/mem_wb.db:mem_wb'
+Loaded 1 design.
+Current design is 'mem_wb'.
+mem_wb
+read_verilog pipelined_mips.v
+Loading verilog file '/home/michael.neri/coe113/lab5/processor/pipelined_mips.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /home/michael.neri/coe113/lab5/processor/pipelined_mips.v
+
+Statistics for case statements in always block at line 105 in file
+        '/home/michael.neri/coe113/lab5/processor/pipelined_mips.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           106            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+        in routine pipelined_mips line 114 in file
+                '/home/michael.neri/coe113/lab5/processor/pipelined_mips.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    inst_addr_reg    | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/home/michael.neri/coe113/lab5/processor/pipelined_mips.db:pipelined_mips'
+Loaded 1 design.
+Current design is 'pipelined_mips'.
+pipelined_mips
+read_verilog rf.v
+Loading verilog file '/home/michael.neri/coe113/lab5/processor/rf.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /home/michael.neri/coe113/lab5/processor/rf.v
+Warning:  /home/michael.neri/coe113/lab5/processor/rf.v:18: The construct 'declaration initial assignment' is not supported in synthesis; it is ignored. (VER-708)
+
+Inferred memory devices in process
+        in routine rf line 20 in file
+                '/home/michael.neri/coe113/lab5/processor/rf.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       rf_reg        | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+|       rf_reg        | Flip-flop |  992  |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Statistics for MUX_OPs
+======================================================
+| block name/line  | Inputs | Outputs | # sel inputs |
+======================================================
+|      rf/31       |   32   |   32    |      5       |
+|      rf/36       |   32   |   32    |      5       |
+|      rf/37       |   32   |   32    |      5       |
+======================================================
+Presto compilation completed successfully.
+Current design is now '/home/michael.neri/coe113/lab5/processor/rf.db:rf'
+Loaded 1 design.
+Current design is 'rf'.
+rf
+read_verilog sel_pc_blk.v
+Loading verilog file '/home/michael.neri/coe113/lab5/processor/sel_pc_blk.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /home/michael.neri/coe113/lab5/processor/sel_pc_blk.v
+
+Statistics for case statements in always block at line 57 in file
+        '/home/michael.neri/coe113/lab5/processor/sel_pc_blk.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            65            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 75 in file
+        '/home/michael.neri/coe113/lab5/processor/sel_pc_blk.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            76            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+        in routine sel_pc_blk line 57 in file
+                '/home/michael.neri/coe113/lab5/processor/sel_pc_blk.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      flush_reg      | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|     cstate_reg      | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/home/michael.neri/coe113/lab5/processor/sel_pc_blk.db:sel_pc_blk'
+Loaded 1 design.
+Current design is 'sel_pc_blk'.
+sel_pc_blk
+current_design pipelined_mips
+Current design is 'pipelined_mips'.
+{pipelined_mips}
+link
+
+  Linking design 'pipelined_mips'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  * (9 designs)               /home/michael.neri/coe113/lab5/processor/pipelined_mips.db, etc
+  saed90nm_typ (library)      /home/michael.neri/coe113/lab5/lib/saed90nm_typ.db
+
+1
+check_design > logs/check_design.log
+source timing.con
+1
+compile
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | M-2016.12-DWBB_201612.5.1
+                                                               |     *     |
+| Licensed DW Building Blocks        |                         |           |
+============================================================================
+
+
+Information: There are 159 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'mem_wb'
+  Processing 'exe_mem'
+  Processing 'alu'
+  Processing 'id_exe'
+  Processing 'rf'
+  Processing 'control'
+  Processing 'if_id'
+  Processing 'sel_pc_blk'
+  Processing 'pipelined_mips'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+  Processing 'pipelined_mips_DW01_add_0'
+  Processing 'pipelined_mips_DW01_add_1'
+  Processing 'alu_DW_rash_0'
+  Processing 'alu_DW01_ash_0'
+  Processing 'alu_DW01_cmp2_0'
+  Processing 'alu_DW01_sub_0'
+  Processing 'alu_DW01_add_0'
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:10  112773.4      0.03       0.5       0.0                          
+    0:00:10  112773.4      0.03       0.5       0.0                          
+    0:00:10  112773.4      0.03       0.5       0.0                          
+    0:00:10  112769.7      0.03       0.5       0.0                          
+    0:00:11  112769.7      0.03       0.5       0.0                          
+    0:00:11  106990.4      0.20       5.8       0.0                          
+    0:00:11  106999.6      0.05       1.2       0.0                          
+    0:00:12  107044.8      0.00       0.0       0.0                          
+    0:00:12  107038.3      0.04       0.9       0.0                          
+    0:00:12  107044.8      0.00       0.0       0.0                          
+    0:00:12  107044.8      0.00       0.0       0.0                          
+    0:00:12  107044.8      0.00       0.0       0.0                          
+    0:00:12  107044.8      0.00       0.0       0.0                          
+    0:00:12  107044.8      0.00       0.0       0.0                          
+    0:00:12  107044.8      0.00       0.0       0.0                          
+    0:00:12  107044.8      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:12  107044.8      0.00       0.0       0.0                          
+    0:00:12  107044.8      0.00       0.0       0.0                          
+    0:00:12  107039.2      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:12  107039.2      0.00       0.0       0.0                          
+    0:00:12  107039.2      0.00       0.0       0.0                          
+    0:00:13  106778.4      0.00       0.0       0.0                          
+    0:00:13  106584.9      0.00       0.0       0.0                          
+    0:00:13  106398.7      0.00       0.0       0.0                          
+    0:00:13  106393.2      0.00       0.0       0.0                          
+    0:00:13  106393.2      0.00       0.0       0.0                          
+    0:00:13  106393.2      0.00       0.0       0.0                          
+    0:00:14  106393.2      0.00       0.0       0.0                          
+    0:00:14  106375.7      0.00       0.0       0.0                          
+    0:00:14  106375.7      0.00       0.0       0.0                          
+    0:00:14  106375.7      0.00       0.0       0.0                          
+    0:00:14  106375.7      0.00       0.0       0.0                          
+    0:00:14  106375.7      0.00       0.0       0.0                          
+    0:00:14  106375.7      0.00       0.0       0.0                          
+    0:00:14  106375.7      0.00       0.0       0.0                          
+Loading db file '/home/michael.neri/coe113/lab5/lib/saed90nm_typ.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Warning: Design 'pipelined_mips' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+     Net 'mem_wb1/clk': 1700 load(s), 1 driver(s)
+1
+report_constraint -all_violators > logs/constraint_report.log
+report_area > logs/area_report.log
+report_timing > logs/timing_report.log
+write_sdf -version 1.0 mapped/pipelined_mips_mapped.v
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/home/michael.neri/coe113/lab5/mapped/pipelined_mips_mapped.v'. (WT-3)
+1
+write -f verilog -hier -out mapped/pipelined_mips_mapped.v
+Writing verilog file '/home/michael.neri/coe113/lab5/mapped/pipelined_mips_mapped.v'.
+Warning: Verilog 'assign' or 'tran' statements are written out. (VO-4)
+Warning: Verilog writer has added 5 nets to module pipelined_mips using SYNOPSYS_UNCONNECTED_ as prefix.  Please use the change_names command to make the correct changes before invoking the verilog writer.  (VO-11)
+1
+quit
+
+Thank you...
+

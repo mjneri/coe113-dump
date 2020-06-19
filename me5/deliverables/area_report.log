@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : pipelined_mips
+Version: M-2016.12-SP5-2
+Date   : Mon Apr  8 19:33:08 2019
+****************************************
+
+Library(s) Used:
+
+    saed90nm_typ (File: /home/michael.neri/coe113/lab5/lib/saed90nm_typ.db)
+
+Number of ports:                         2533
+Number of nets:                          8717
+Number of cells:                         6514
+Number of combinational cells:           4785
+Number of sequential cells:              1715
+Number of macros/black boxes:               0
+Number of buf/inv:                        909
+Number of references:                      22
+
+Combinational area:              51781.938617
+Buf/Inv area:                     5165.568127
+Noncombinational area:           54593.741655
+Macro/Black Box area:                0.000000
+Net Interconnect area:           11206.879085
+
+Total cell area:                106375.680272
+Total area:                     117582.559357
+1
